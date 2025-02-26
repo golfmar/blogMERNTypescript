@@ -5,9 +5,10 @@ const Home: React.FC = () => {
       <div className="container">
         <section>
           <h2>
+            {" "}
             <a href="https://github.com/golfmar/blogMERNTypescript">
-              Github repository
-            </a>
+              Github
+            </a>{" "}
           </h2>
           <h2> Beschreibung des Projekts.</h2>
           <p>

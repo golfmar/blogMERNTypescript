@@ -4,11 +4,6 @@ const Home: React.FC = () => {
     <div className="home-page" style={{ margin: "100px 0 0 0" }}>
       <div className="container">
         <section>
-          <h2>
-            <a href="https://github.com/golfmar/blogMERNTypescript">
-              Github repository
-            </a>
-          </h2>
           <h2> Beschreibung des Projekts.</h2>
           <p>
             Es ist ein Pet-Projekt, das nach Kundenwunsch in ein reales Projekt

@@ -77,7 +77,6 @@ const Home: React.FC = () => {
         </p>
       </section>
       {/* --------------------------- */}
-      <hr />
       <section>
         <h2> Description of the project.</h2>
         <p>

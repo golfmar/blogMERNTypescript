@@ -77,7 +77,6 @@ const Home: React.FC = () => {
         </p>
       </section>
       {/* --------------------------- */}
-      <hr />
       <section>
         <h2> Description of the project.</h2>
         <p>
@@ -138,13 +137,14 @@ const Home: React.FC = () => {
           third-party UI libraries waive.
         </p>
         <p>
-          The layout uses a local Redux-based datastore that greatly simplifies
-          the change process and the exchange of data in components, without
-          waiting for the response from the server.
+          Das Layout verwendet einen lokalen Redux-basierten Datenspeicher, der
+          den Änderungsprozess erheblich vereinfacht und den Austausch von Daten
+          in Komponenten, ohne auf die Antwort des Servers zu warten.
         </p>
         <p>
-          Overall, the laying looks dynamic and modern. And of course the
-          interface can be changed according to the customer's order werden.
+          Insgesamt sieht die Verlegung dynamisch und modern aus. Und natürlich
+          kann die Schnittstelle entsprechend dem Auftrag des Kunden geändert
+          werden.
         </p>
       </section>
     </>

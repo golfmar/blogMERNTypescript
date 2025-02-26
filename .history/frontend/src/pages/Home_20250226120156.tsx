@@ -77,7 +77,6 @@ const Home: React.FC = () => {
         </p>
       </section>
       {/* --------------------------- */}
-      <hr />
       <section>
         <h2> Description of the project.</h2>
         <p>
@@ -143,8 +142,9 @@ const Home: React.FC = () => {
           waiting for the response from the server.
         </p>
         <p>
-          Overall, the laying looks dynamic and modern. And of course the
-          interface can be changed according to the customer's order werden.
+          Insgesamt sieht die Verlegung dynamisch und modern aus. Und natürlich
+          kann die Schnittstelle entsprechend dem Auftrag des Kunden geändert
+          werden.
         </p>
       </section>
     </>

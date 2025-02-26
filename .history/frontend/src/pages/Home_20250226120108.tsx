@@ -77,7 +77,6 @@ const Home: React.FC = () => {
         </p>
       </section>
       {/* --------------------------- */}
-      <hr />
       <section>
         <h2> Description of the project.</h2>
         <p>
@@ -122,29 +121,32 @@ const Home: React.FC = () => {
           pages.
         </p>
         <p>
-          When you create a post, the image of the post is sent to a
-          transferring an external service api.cloudinary.com and just the link
-          to the The image is stored in the database.
+          Wenn Sie einen Beitrag erstellen, wird das Bild des Beitrags an einen
+          externen Dienst übertragen api.cloudinary.com und nur der Link zum
+          Bild wird in der Datenbank gespeichert.
         </p>
         <p>
-          This link will then be sent along with the other postal data and
-          opened in the browser on the post component. The post page filtering
-          and pagination of post pages are implemented, so the user conveniently
-          scroll through the page filtering can find the right Item.
+          Dieser Link wird dann zusammen mit den anderen Postdaten gesendet und
+          im Browser auf der Postkomponente geöffnet. Die Postseitenfilterung
+          und Paginierung von Postseiten sind implementiert, sodass der Benutzer
+          bequem durch die Postseitenfilterung blättern kann die richtigen
+          Posten.
         </p>
         <p>
-          In addition, customer-specific solutions for Standard components such
-          as Select, Button, burger, input, etc. implemented, so you can access
-          third-party UI libraries waive.
+          Darüber hinaus wurden kundenspezifische Lösungen für
+          Standardkomponenten wie Select , Button, Burger, Input usw.
+          implementiert, so können Sie auf UI-Bibliotheken von Drittanbietern
+          verzichten.
         </p>
         <p>
-          The layout uses a local Redux-based datastore that greatly simplifies
-          the change process and the exchange of data in components, without
-          waiting for the response from the server.
+          Das Layout verwendet einen lokalen Redux-basierten Datenspeicher, der
+          den Änderungsprozess erheblich vereinfacht und den Austausch von Daten
+          in Komponenten, ohne auf die Antwort des Servers zu warten.
         </p>
         <p>
-          Overall, the laying looks dynamic and modern. And of course the
-          interface can be changed according to the customer's order werden.
+          Insgesamt sieht die Verlegung dynamisch und modern aus. Und natürlich
+          kann die Schnittstelle entsprechend dem Auftrag des Kunden geändert
+          werden.
         </p>
       </section>
     </>

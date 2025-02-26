@@ -1,7 +1,7 @@
 import React from "react";
 const Home: React.FC = () => {
   return (
-    <div className="home-page" style={{ margin: "100px 0 0 0" }}>
+    <div className="home-page" style={{ margin: "100vh" }}>
       <div className="container">
         <section>
           <h2> Beschreibung des Projekts.</h2>

@@ -6,7 +6,7 @@ const Home: React.FC = () => {
         <section>
           <h2>
             <a href="https://github.com/golfmar/blogMERNTypescript">
-              Link to Github repository
+              Github repository
             </a>
           </h2>
           <br />

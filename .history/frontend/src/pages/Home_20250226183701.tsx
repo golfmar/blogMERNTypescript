@@ -6,10 +6,9 @@ const Home: React.FC = () => {
         <section>
           <h2>
             <a href="https://github.com/golfmar/blogMERNTypescript">
-              Link to Github repository
+              Github repository
             </a>
           </h2>
-          <br />
           <h2> Beschreibung des Projekts.</h2>
           <p>
             Es ist ein Pet-Projekt, das nach Kundenwunsch in ein reales Projekt

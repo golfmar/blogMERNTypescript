@@ -4,7 +4,7 @@ const Home: React.FC = () => {
     <div className="home-page" style={{ margin: "100px 0 0 0" }}>
       <div className="container">
         <section>
-          <h2>
+          <h2 >
             <a href="https://github.com/golfmar/blogMERNTypescript">
               Link to Github repository
             </a>

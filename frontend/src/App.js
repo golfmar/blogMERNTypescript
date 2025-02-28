@@ -12,6 +12,7 @@ import { setUser } from "./redux/actions/authActions";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 const serverUrl = process.env.REACT_APP_API_URL;
 const googleClient = process.env.REACT_APP_GOOGLE_CLIENT_ID;
+console.log("Google Client ID:", googleClient);
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {

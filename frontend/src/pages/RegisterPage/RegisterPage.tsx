@@ -100,13 +100,25 @@ const RegisterPage = () => {
       isValid = false;
     }
     setFormErrors(errors);
-    return isValid;
+    return { isValid, errors };
   };
 
   const handleRegister = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
-    if (!validateForm()) return;
-    // console.log("===--- register ---====", username, email, password);
+    const { isValid, errors } = validateForm();
+    if (!isValid) {
+      console.log("===--- formErrors ---====", formErrors);
+      const errorList = Object.values(errors).filter((error) => error !== "");
+      const newFormErrors = errorList.join(", ");
+      setSuccessMessage(newFormErrors);
+      setOpenModalMessage(true);
+      setTimeout(() => {
+        setSuccessMessage("");
+        setOpenModalMessage(false);
+      }, 2000);
+      return;
+    }
+    console.log("===--- register ---====", username, email, password);
     if (socket) {
       socket.emit("register", { username, email, password });
     }

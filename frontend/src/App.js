@@ -23,6 +23,7 @@ function App() {
       dispatch(setUser({ user, token }));
     }
   }, [dispatch]);
+
   useEffect(() => {
     const socket = io(serverUrl);
     socket.on("connect", () => {
